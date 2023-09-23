@@ -1,0 +1,12 @@
+POST http://localhost:4000/update_updateMany/
+content-type: application/json
+
+{
+    "searchData":{
+        "name": "some_name"
+    },
+    "updateData":{
+        "name": "updated_name",
+        "age": "updated_age"
+    }
+}

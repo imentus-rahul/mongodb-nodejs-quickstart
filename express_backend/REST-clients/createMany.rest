@@ -1,0 +1,27 @@
+POST http://localhost:4000/create_insertMany/
+content-type: application/json
+
+[
+    {
+        "name": "some_name",
+        "age": "some_age"
+    },
+    {
+        "name": "some_name",
+        "age": "some_age"
+    },
+    {
+        "name": "some_name",
+        "age": "some_age"
+    },
+    {
+        "name": "some_name",
+        "age": "some_age"
+    },
+    {
+        
+        "name": "some_name",
+        "age": "some_age"
+
+    }
+]
